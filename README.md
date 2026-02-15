@@ -111,21 +111,40 @@ https://github.com/Ashish094562/Diabetes-Backend-Flask
 ```text
 Diabetes-Backend-Flask/
 │
-├── app.py
-├── requirements.txt
-├── diabetes_model.pkl
+├── app.py                    # Flask application
+├── models.py                 # MongoDB models (if needed)
+├── init.py
+├── requirements.txt          # Dependencies
+├── diabetes_model.pkl        # Trained ML model
+├── Procfile                  # For Render deployment
 └── README.md
 ```
 
-## 🔹 Frontend Repo
-https://github.com/Ashish094562/Diabetes-WebApplication.git
 
+**Backend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-Backend-Flask.git)
+
+---
+
+# 📁 Frontend Repository Structure
+
+```text
+Diabetes_Web/
+│
+├── src/
+│ └── App.jsx           # React main component
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+```
+**Frontend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-WebApplication.git)
 ---
 
 # 🚀 Local Setup Guide
 
 ## 1️⃣ Clone Backend
 
+```bash
 ```bash
 git clone https://github.com/Ashish094562/Diabetes-Backend-Flask.git
 cd Diabetes-Backend-Flask
@@ -154,6 +173,8 @@ http://localhost:10000
 ```
 ## 5️⃣ Run Frontend
 ```bash
+git clone https://github.com/Ashish094562/Diabetes-WebApplication.git
+cd Diabetes_Web
 npm install
 npm run dev
 ```
