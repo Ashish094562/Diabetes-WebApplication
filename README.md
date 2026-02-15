@@ -139,6 +139,84 @@ Diabetes_Web/
 ```
 ### **Frontend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-WebApplication.git)
 ---
+## ⚙️ Backend API (Flask + MongoDB Atlas)
+
+**Base URL:** `https://diabetes-backend-flask.onrender.com`
+
+### 1. Health Check
+- GET /health
+```text
+**Response:**
+```json
+{
+  "status": "ok"
+}
+```
+### 2. Predict Diabetes
+- POST /api/predict
+```text
+{
+  "gender": "Male",
+  "age": 45,
+  "hypertension": "1",
+  "heart_disease": "0",
+  "smoking_history": "current",
+  "bmi": 28.5,
+  "HbA1c_level": 6.5,
+  "blood_glucose_level": 140
+}
+```
+- Response (Success):
+```text
+{
+  "success": true,
+  "result": "Diabetic",
+  "recordId": "64f123abc456def7890ghi12"
+}
+```
+### 3. Get All Records
+- GET /api/records
+```text
+[
+  {
+    "_id": "64f123abc456def7890ghi12",
+    "gender": "Male",
+    "age": 45,
+    "hypertension": 1,
+    "heart_disease": 0,
+    "smoking_history": "current",
+    "bmi": 28.5,
+    "hba1c_level": 6.5,
+    "blood_glucose_level": 140,
+    "result": "Diabetic"
+  },
+  ...
+]
+```
+### 4. Get Single Record by ID
+- GET /api/records/<id>
+```text
+{
+  "_id": "64f123abc456def7890ghi12",
+  "gender": "Male",
+  "age": 45,
+  "hypertension": 1,
+  "heart_disease": 0,
+  "smoking_history": "current",
+  "bmi": 28.5,
+  "hba1c_level": 6.5,
+  "blood_glucose_level": 140,
+  "result": "Diabetic"
+}
+```
+### 5. Delete Record by ID
+- DELETE /api/records/<id>
+```text
+{
+  "message": "Record deleted successfully"
+}
+```
+
 
 ## 🚀 Local Setup Guide
 
