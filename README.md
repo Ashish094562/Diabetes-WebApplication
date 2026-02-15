@@ -17,7 +17,7 @@ Built using **React + Flask + MongoDB Atlas + Render + Vercel**.
 ---
 
 # 🏗️ System Architecture
-
+```text
 React Frontend (Vercel)
 │
 ▼
@@ -28,7 +28,7 @@ MongoDB Atlas (Cloud Database)
 │
 ▼
 ML Model (Joblib - Diabetes Prediction)
-
+```
 
 ---
 
@@ -108,17 +108,17 @@ ML Model (Joblib - Diabetes Prediction)
 
 ## 🔹 Backend Repo
 https://github.com/Ashish094562/Diabetes-Backend-Flask
-
+```text
 Diabetes-Backend-Flask/
 │
 ├── app.py
 ├── requirements.txt
 ├── diabetes_model.pkl
 └── README.md
-
+```
 
 ## 🔹 Frontend Repo
-(Your React repository)
+https://github.com/Ashish094562/Diabetes-WebApplication.git
 
 ---
 
