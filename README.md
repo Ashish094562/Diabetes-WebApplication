@@ -107,7 +107,7 @@ ML Model (Joblib - Diabetes Prediction)
 # 📁 Repository Structure
 
 ## 🔹 Backend Repo
-https://github.com/Ashish094562/Diabetes-Backend-Flask
+
 ```text
 Diabetes-Backend-Flask/
 │
@@ -121,11 +121,11 @@ Diabetes-Backend-Flask/
 ```
 
 
-**Backend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-Backend-Flask.git)
+### **Backend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-Backend-Flask.git)
 
 ---
 
-# 📁 Frontend Repository Structure
+## 🔹 Frontend Repo
 
 ```text
 Diabetes_Web/
@@ -137,7 +137,7 @@ Diabetes_Web/
 ├── tailwind.config.js
 └── README.md
 ```
-**Frontend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-WebApplication.git)
+### **Frontend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-WebApplication.git)
 ---
 
 # 🚀 Local Setup Guide
