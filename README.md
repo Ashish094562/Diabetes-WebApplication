@@ -140,20 +140,20 @@ Diabetes_Web/
 ### **Frontend Repo:** [GitHub Link](https://github.com/Ashish094562/Diabetes-WebApplication.git)
 ---
 
-# 🚀 Local Setup Guide
+## 🚀 Local Setup Guide
 
-## 1️⃣ Clone Backend
+### 1️⃣ Clone Backend
 
 ```bash
 ```bash
 git clone https://github.com/Ashish094562/Diabetes-Backend-Flask.git
 cd Diabetes-Backend-Flask
 ```
-## 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-## 3️⃣ Set Environment Variable
+### 3️⃣ Set Environment Variable
 ### Create .env file:
 ```bash
 MONGO_URI=your_mongodb_atlas_connection_string
@@ -162,7 +162,7 @@ MONGO_URI=your_mongodb_atlas_connection_string
 ```bash
 export MONGO_URI=your_uri
 ```
-## 4️⃣ Run Backend
+### 4️⃣ Run Backend
 ```bash
 python app.py
 ```
@@ -171,14 +171,14 @@ python app.py
 http://localhost:10000
 
 ```
-## 5️⃣ Run Frontend
+### 5️⃣ Run Frontend
 ```bash
 git clone https://github.com/Ashish094562/Diabetes-WebApplication.git
 cd Diabetes_Web
 npm install
 npm run dev
 ```
-## 🔐 MongoDB Atlas Setup
+### 🔐 MongoDB Atlas Setup
 
 1. Create cluster
 2. Create database user
